@@ -1,0 +1,201 @@
+body {
+		background-image: linear-gradient(blue, darkblue, #100c52);
+		color: white;
+		font-family: Arial, Comic Sans MS, Times New Roman, serif;
+		font-size: 1em;
+		text-align: center;
+		}
+
+h1 {
+		background-color: black;
+		color: blue;
+		font-family: Arial, Times New Roman, serif;
+		font-weight: 1000;
+		font-style: oblique;
+		border: ridge 10px blue;
+		border-top-color: blue;
+		border-bottom-color: blue;
+		border-left-color: blue;
+		border-right-color: blue;
+		}
+
+hr {
+		height: 5px;
+		background-color: blue;
+		border: none;
+		}
+
+table {
+		border: ridge 10px blue;
+		padding: 0px;
+		margin: 0px;
+		border-width: ;
+		border-color: blue;
+		border-top-color: blue;
+		border-bottom-color: blue;
+		border-left-color: blue;
+		border-right-color: blue;
+		/*border-radius: 5px;*/
+		background-color: black;
+		display: center;
+		margin-left: auto;
+		margin-right: auto;
+		}
+		
+	p {
+		border: ridge 10px blue;
+		padding: 17px;
+		margin: 2px;
+		/*border-style: ridge;*/
+		border-width: ;
+		border-color: blue;
+		border-top-color: blue;
+		border-bottom-color: blue;
+		border-left-color: blue;
+		border-right-color: blue;
+		/*border-radius: 5px;*/
+		background-color: black;
+		/*box-shadow:10px 10px 10px black;*/
+		}
+		/* 1st # in box-shadow is where it is on x axis the 2nd # is where the shadow is on the y axis the 3rd # is the darkness of the shadow */
+	
+	ul {
+		display: inline-block;
+		border: ridge 1px black;
+		padding: 20px;
+		padding-bottom: ;
+		margin: 2px;
+		border-style: ridge;
+		border-width: 12px;
+		border-color: blue;
+		border-top-color: blue;
+		border-bottom-color: blue;
+		border-right-color: blue;
+		border-left-color: blue;
+		/*border-radius: 20px;*/
+		text-align: left;
+		background-color: black;
+		}
+
+	a {
+		color: white;
+		}
+		
+	img {
+		border: ridge 12px blue;
+		}
+	
+	dl {
+		border: ridge 10px blue;
+		padding: 0px;
+		margin: 0px;
+		border-width: ;
+		border-color: blue;
+		border-top-color: blue;
+		border-bottom-color: blue;
+		border-left-color: blue;
+		border-right-color: blue;
+		/*border-radius: 5px;*/
+		background-color: black;
+		}
+
+.container1 {
+			margin-left: auto;
+			margin-right: auto;
+			}
+
+.container2 {
+			display: flex;
+			}
+			
+.container3 {
+			display: center;
+			border: ridge 10px blue;
+			}
+			
+.container4 {
+			display: flex;
+			text-align: center-left;
+			}
+			
+.container5 {
+			display: center;
+			}
+		
+.topnav {
+		position: relative;
+		background-color: black;
+		overflow: hidden;
+		position: absolute;
+		top: 0px;
+		left: 135px;
+		line-height: 130.2px;
+		text-align: center;
+		max-height: 135px;
+		/*display: flex;*/
+		}
+		
+.topnav a {
+			text-decoration: none;
+			text-transform: uppercase;
+			color: #f2f2f2;
+			font-size: 28.31px;
+			font-family: , sans-serif;
+			letter-spacing: 2px;
+			font-weight: 600;
+			padding: 14px;
+			/*color: #f2f2f2;
+			text-align: center;
+			padding: 14px;
+			margin: 14px;
+			text-decoration: none;
+			font-size: 17px;*/
+			}
+			
+.topnav a:hover {
+				/*color: white;*/
+				color: #002aff;
+				}
+
+div.scrollmenu {
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: black;
+}
+
+footer {
+		background-color: black;
+		}
+
+form {
+		border: ridge 10px blue;
+		padding: 5px;
+		margin: 2px;
+		/*border-style: ridge;*/
+		border-width: ;
+		border-color: blue;
+		border-top-color: blue;
+		border-bottom-color: blue;
+		border-left-color: blue;
+		border-right-color: blue;
+		/*border-radius: 5px;*/
+		background-color: black;
+		/*box-shadow:10px 10px 10px black;*/
+		}
+		
+header {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		}
